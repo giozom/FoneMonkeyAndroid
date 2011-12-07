@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FoneMonkeyBuildAndTest" default="build_and_test">
+
+	<import file="fonemonkeytest.xml"/>
+
+	<target name="build_and_test">
+		<ant dir=".." antfile="build.xml">
+			<target name="debug"/>
+			<target name="install"/>
+		</ant>
+
+		<antcall target="start_app"/> 
+		<sleep seconds="1"/>
+		<antcall target="junit"/> 
+	</target>
+
+</project>

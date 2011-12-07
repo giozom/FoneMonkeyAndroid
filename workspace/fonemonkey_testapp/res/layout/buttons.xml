@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/buttons"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/nemo"
+	>
+
+	<Button
+		android:id="@+id/button1"
+		android:text="@string/XMLButton1"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:background="@drawable/rounded_button_bg_navy"
+		android:layout_width="250dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		/>
+
+	<Button
+		android:id="@+id/button2"
+		android:text="@string/XMLButton2"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:background="@drawable/rounded_button_bg_navy"
+		android:layout_width="250dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="40dip"
+		/>
+
+	<Button
+		android:id="@+id/button3"
+		android:text="@string/XMLButton3"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:background="@drawable/rounded_button_bg_navy"
+		android:layout_width="250dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="40dip"
+		/>
+
+	<Button
+		android:id="@+id/button4"
+		android:text="@string/XMLButton4"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:background="@drawable/rounded_button_bg_navy"
+		android:layout_width="250dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="40dip"
+		/>
+</LinearLayout>

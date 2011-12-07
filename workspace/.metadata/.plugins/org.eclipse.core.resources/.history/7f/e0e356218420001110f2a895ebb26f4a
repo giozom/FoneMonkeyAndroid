@@ -1,0 +1,5 @@
+aspectj.dir=/path/to/aspectj1.6
+# Note: Your JUnit test dir is assumed to have a src directory and a classes directory
+junittest.dir=/path/to/your/junit_test_dir
+#e.g. com.gorillalogic.monkeytest/.TabsActivity
+app.activity=your_app_main_activity

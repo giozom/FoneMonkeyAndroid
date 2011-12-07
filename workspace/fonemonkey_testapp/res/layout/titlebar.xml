@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/titlebar"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:windowTitleSize">
+
+	<ImageView
+		android:src="@drawable/icon"
+		android:layout_width="37dip"
+		android:layout_height="37dip"
+		android:layout_gravity="center"
+		android:paddingLeft="5dip"
+		/>
+
+	<TextView
+		android:id="@+id/titlebartext"
+		android:text="@string/app_name"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="@color/titletextcolor"
+		android:gravity="center_vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="left|fill_vertical"
+		android:paddingLeft="5dip"
+		/>
+</LinearLayout>

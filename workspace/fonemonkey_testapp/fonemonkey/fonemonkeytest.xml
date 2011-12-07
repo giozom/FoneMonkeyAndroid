@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="fonemonkeytest" default="init">
+	
+    <loadproperties srcFile="fonemonkeybuild.properties" />	
+
+	<target name="start_app">
+		<exec executable="adb">
+			<arg line="shell am start -a android.intent.action.MAIN -n ${app.activity}"/>
+		</exec>
+		<exec executable="adb">
+			<arg line="forward tcp:7001 tcp:7001"/>
+		</exec>
+	</target>
+
+	<target name="junit">
+		<junit printsummary="yes" haltonfailure="yes">
+			<classpath>
+				<pathelement location="../libs/junit-4.10.jar"/>
+				<pathelement path="${junittest.dir}/classes"/>
+				<pathelement location="../libs/fonemonkey-0.6ea.jar"/>
+			</classpath>
+
+			<formatter type="xml"/>
+
+			<batchtest fork="yes" todir="..">
+				<fileset dir="${junittest.dir}/src">
+					<include name="**/*.java"/>
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+
+</project>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="fonemonkey/aspects"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="libs/junit-4.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/fonemonkey-0.6.4ea.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

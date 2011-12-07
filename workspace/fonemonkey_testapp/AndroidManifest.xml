@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		package="com.gorillalogic.monkeytest"
+		android:versionCode="1"
+		android:versionName="0.1"
+		android:debuggable="true">
+
+	<uses-sdk android:minSdkVersion="8" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+
+		<activity android:name=".TabsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+		</activity>
+
+		<activity android:name=".CodeButtonsPanel"/>
+		<activity android:name=".XMLButtonsPanel"/>
+		<activity android:name=".ListPanel"/>
+		<activity android:name=".ImagesPanel"/>
+		<activity android:name=".TextPanel"/>
+		<activity android:name=".ImageScrollPanel"/>
+		<activity android:name=".MiscPanel"/>
+
+	</application>
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+strings.xml
+FoneMonkey Test App
+
+Created by Shaun Terry (shaun.terry@gorillalogic.com) on 09/06/11.
+Copyright 2011 Gorilla Logic, Inc. All rights reserved.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	 <string name="app_name">FoneMonkey Tester</string>
+     <string name="company_name">Gorilla Logic, Inc</string>
+
+	<!-- Code Buttons -->
+    <string name="CodeButton1">Code Button 1</string>
+    <string name="CodeButton2">Code Button 2</string>
+    <string name="CodeButton3">Code Button 3</string>
+    <string name="CodeButton4">Code Button 4</string>
+	
+	<!-- XML Buttons -->
+    <string name="XMLButton1">XML Button 1</string>
+    <string name="XMLButton2">XML Button 2</string>
+    <string name="XMLButton3">XML Button 3</string>
+    <string name="XMLButton4">XML Button 4</string>
+
+	<!-- Tabs -->
+    <string name="CodeButtons">Code</string>
+	<string name="XMLButtons">XML</string>
+	<string name="Images">Images</string>
+	<string name="List">List</string>
+	<string name="Text">Text</string>
+	<string name="Scroll">Scroll</string>
+	<string name="Web">Web</string>
+	<string name="Misc">Misc</string>
+	<string name="Map">Map</string>
+
+	<!-- Spinner -->
+	<string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
+
